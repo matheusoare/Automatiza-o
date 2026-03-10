@@ -1,0 +1,61 @@
+/* Limpa toda a formatação */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Formatacao Geral */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: url("imagens/fundo_vinho.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    width: 1800px;
+    margin: 0 auto;
+}
+
+#area-texto, #area-login {
+    height: 850px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+/* Formatacao do Texto */
+#area-texto {
+    width: 1000px;
+    float: left;
+    text-align: center;
+}
+
+#area-texto h1{
+    font-size: 2.5em;
+    color: white;
+    margin-top: 300px;
+    margin-bottom: 10px;
+}
+
+#area-texto p{
+    font-size: 1.1em;
+    color: white;
+}
+
+
+/* Formatacao do login */
+#area-login {
+    border: 2px solid #772731;
+    background: white;
+    width: 700px;
+    float: right;
+    border-radius: 20px;
+}
+
+#area-login h1 {
+    font-size: 2.5em;
+    color: black;
+    margin-top: 20px;
+    padding: 50px;
+}
+
